@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0b0b0f;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: #dc951b;
+    border: 2px solid #dc951b;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.search-box {
+    position: relative;
+    width: 350px;
+    margin: auto;
+}
+
+#search {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    background: #1e1e2a;
+    color: white;
+    outline: none;
+}
+
+#search::placeholder {
+    color: #888;
+}
+
+#suggestions {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    background: #1e1e2a;
+    border-radius: 0 0 8px 8px;
+    overflow: hidden;
+}
+
+#suggestions li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #333;
+}
+
+#suggestions li:hover {
+    background: #2a2a3a;
+}
+
+#personagem-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 260px;
+    border-radius: 14px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+    border: 2px solid #ffffff;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.card img:hover{
+    transform: scale(1.05);
+    transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.card p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+/* Cores por aldeia */
+
+.konoha {
+    background: linear-gradient(135deg, #1b3a1b, #0f1f0f);
+    color: #9cff57;
+    border: 2px solid #397911;
+}
+
+.suna {
+    background: linear-gradient(135deg, #3a2a1b, #1f140f);
+    color: #ffc86b;
+    border: 2px solid #b76508;
+}
+
+.kiri {
+    background: linear-gradient(135deg, #1b2f3a, #0f1a1f);
+    color: #6bd8ff;
+    border: 2px solid #0843cf;
+}
+
+.ame {
+    background: linear-gradient(135deg, #2a1b3a, #140f1f);
+    color: #d46bff;
+    border: 2px solid #8408b7;
+}
+
+.akatsuki {
+    background: linear-gradient(135deg, #3a0000, #1a0000);
+    color: #ff6b6b;
+    border: 2px solid #ff6b6b;
+}
