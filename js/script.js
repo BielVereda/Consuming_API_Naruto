@@ -6,66 +6,54 @@ const container = document.getElementById("personagem-container")
 
 let personagens = []
 
-async function carregarAPI(){
+async function carregarAPI() {
 
-try{
-
-const resposta = await fetch(apiURL)
-const dados = await resposta.json()
-
-personagens = dados.narutoCharacters
-
-}catch(erro){
-
-console.error("Erro ao conectar com API", erro)
-
-}
+    try {
+        const resposta = await fetch(apiURL)
+        const dados = await resposta.json()
+        personagens = dados.narutoCharacters
+    }
+    
+    catch (erro) {
+        console.error("Erro ao conectar com API", erro)
+    }
 
 }
 
 carregarAPI()
 
-search.addEventListener("input",()=>{
+search.addEventListener("input", () => {
 
-const valor = search.value.toLowerCase()
+    const valor = search.value.toLowerCase()
+    suggestions.innerHTML = ""
 
-suggestions.innerHTML=""
+    if (valor === "") return
 
-if(valor === "") return
+    const filtrados = personagens.filter(p =>
+        p.name.toLowerCase().includes(valor)
+    )
 
-const filtrados = personagens.filter(p =>
-p.name.toLowerCase().includes(valor)
-)
+    filtrados.forEach(personagem => {
 
-filtrados.forEach(personagem=>{
+        const li = document.createElement("li")
+        li.textContent = personagem.name
 
-const li = document.createElement("li")
-li.textContent = personagem.name
+        li.addEventListener("click", () => {
+            search.value = personagem.name
+            suggestions.innerHTML = ""
+            mostrarCard(personagem)
+        })
 
-li.addEventListener("click",()=>{
+        suggestions.appendChild(li)
 
-search.value = personagem.name
-suggestions.innerHTML=""
-
-mostrarCard(personagem)
-
+    })
 })
 
-suggestions.appendChild(li)
-
-})
-
-})
-
-function mostrarCard(p){
-
-container.innerHTML=""
-
-const card = document.createElement("div")
-
-card.classList.add("card", p.village.toLowerCase())
-
-card.innerHTML = `
+function mostrarCard(p) {
+    container.innerHTML = ""
+    const card = document.createElement("div")
+    card.classList.add("card", p.village.toLowerCase())
+    card.innerHTML = `
 
 <h2>${p.name}</h2>
 
@@ -79,7 +67,5 @@ card.innerHTML = `
 <p><b>Susanoo:</b> ${p.susanoo}</p>
 
 `
-
-container.appendChild(card)
-
+    container.appendChild(card)
 }
