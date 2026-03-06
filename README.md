@@ -56,17 +56,18 @@ https://api.sheety.co/1496e89186f13b092444e4d8a5eacbf0/narutoApi/narutoCharacter
 ## 📁 Estrutura do Projeto
 
 ```
-Consuming_API_Naruto/
-│
-├── index.html
-│
-├── css/
-│   └── style.css
-│
-├── js/
-│   └── script.js
-│
-└── README.md
+└── Consuming_API_Naruto/
+      ├── index.html
+      │
+      ├── css/
+      │   └── style.css
+      │
+      ├── js/
+      │   └── script.js
+      │
+      ├── LICENSE.mit
+      │
+      └── README.md
 ```
 
 ---
