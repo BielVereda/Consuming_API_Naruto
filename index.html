@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/svg+xml" href="./assets/components/logo-icon.png" fetchpriority="high">
+    <meta name="description"
+        content="NinjaDex: Naruto Database é uma enciclopédia ninja interativa onde você pode pesquisar personagens do Naruto Clássico e descobrir suas habilidades, clãs, aldeias e poderes especiais.">
+
+    <title>NinjaDex: Naruto Database</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="header-container">
+
+            <div class="logo-area">
+                <img src="./assets/components/logo-icon.png" alt="NinjaDex Logo" class="logo" fetchpriority="high">
+                <span class="logo-text">NinjaDex</span>
+            </div>
+
+            <nav>
+                <a href="https://github.com/BielVereda/Consuming_API_Naruto.git" target="_blank" class="github-link">
+                    <img src="./assets/components/github-icon.png" alt="GitHub" fetchpriority="low">
+                </a>
+            </nav>
+
+        </div>
+
+    </header>
+
+    <main>
+        <h1>NinjaDex: Naruto Database</h1>
+
+        <p class="intro">
+            🌀 Explore o universo ninja! 🌀 <br>
+            Descubra informações sobre os personagens mais poderosos do mundo de Naruto.
+            Pesquise por um <strong>nome</strong> e revele sua aldeia, clã e habilidades especiais.
+        </p>
+
+        <div class="search-box">
+
+            <input type="text" id="search" placeholder="Digite o nome do ninja aqui..." autocomplete="off">
+
+            <ul id="suggestions"></ul>
+
+        </div>
+
+        <p class="search-tip">
+            💡 Dica: comece digitando "Nar", "Sas", "Kak"...
+        </p>
+
+        <div id="personagem-container"></div>
+
+    </main>
+
+    <footer>
+
+        <div class="footer-content">
+
+            <p>
+                Projeto desenvolvido por<br>
+                <a href="https://github.com/BielVereda" target="_blank"><strong>Biel Vereda</strong></a>
+                e
+                <a href="https://github.com/RodrigoJPSilva" target="_blank"><strong>Rodrigo Silva</strong></a>
+            </p>
+
+            <a href="https://github.com/BielVereda/Consuming_API_Naruto.git" target="_blank" class="github-link">
+                <img src="./assets/components/github-icon.png" alt="GitHub" fetchpriority="low">
+            </a>
+
+            <button class="top-btn">
+                <a href="#">⬆ Voltar ao topo</a>
+            </button>
+
+        </div>
+
+    </footer>
+
+    <script src="./js/script.js"></script>
+
+</body>
+</html>
