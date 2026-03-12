@@ -1,0 +1,52 @@
+name,image,village,clan,ability,specialEye,bijuu,susanoo
+Naruto Uzumaki,./assets/images/png/naruto_uzumaki.png,Konohagakure,Uzumaki,Rasengan,não possui,Kurama,Não possui
+Sasuke Uchiha,./assets/images/png/sasuke_uchiha.png,Konohagakure,Uchiha,Chidori,Sharingan,Não possui,Kagutsuchi
+Sakura Haruno,./assets/images/png/sakura_haruno.png,Konohagakure,Haruno,Ninjutsu médico,Não possui,Não possui,Não possui
+Kakashi Hatake,./assets/images/png/kakashi_hatake.png,Konohagakure,Hatake,Raikiri,Sharingan,Não possui,Não possui
+Iruka Umino,./assets/images/png/iruka_umino.png,Konohagakure,Não possui,Instrutor da academia,Não possui,Não possui,Não possui
+Konohamaru Sarutobi,./assets/images/webp/konohamaru_sarutobi.webp,Konohagakure,Sarutobi,Rasengan,Não possui,Não possui,Não possui
+Ebisu,./assets/images/png/ebisu.png,Konohagakure,Não possui,Treinamento ninja,Não possui,Não possui,Não possui
+Shikamaru Nara,./assets/images/png/shikamaru_nara.png,Konohagakure,Nara,Possessão das sombras,Não possui,Não possui,Não possui
+Choji Akimichi,./assets/images/webp/choji_akimichi.webp,Konohagakure,Akimichi,Expansão corporal,Não possui,Não possui,Não possui
+Ino Yamanaka,./assets/images/webp/ino_yamanaka.webp,Konohagakure,Yamanaka,Transferência de mente,Não possui,Não possui,Não possui
+Asuma Sarutobi,./assets/images/png/asuma_sarutobi.png,Konohagakure,Sarutobi,Lâminas de chakra,Não possui,Não possui,Não possui
+Kurenai Yuhi,./assets/images/png/kurenai_yuhi.png,Konohagakure,Não possui,Genjutsu,Não possui,Não possui,Não possui
+Hinata Hyuga,./assets/images/webp/hinata_hyuga.webp,Konohagakure,Hyuga,Punho suave,Byakugan,Não possui,Não possui
+Neji Hyuga,./assets/images/png/neji_hyuga.png,Konohagakure,Hyuga,Oito trigramas,Byakugan,Não possui,Não possui
+Rock Lee,./assets/images/webp/rock_lee.webp,Konohagakure,Não possui,Oito portões,Não possui,Não possui,Não possui
+Tenten,./assets/images/png/tenten.png,Konohagakure,Não possui,Especialista em armas,Não possui,Não possui,Não possui
+Might Guy,./assets/images/webp/might_guy.webp,Konohagakure,Não possui,Oito portões,Não possui,Não possui,Não possui
+Kiba Inuzuka,./assets/images/webp/kiba_inuzuka.webp,Konohagakure,Inuzuka,Técnica homem-besta,Não possui,Não possui,Não possui
+Shino Aburame,./assets/images/webp/shino_aburame.webp,Konohagakure,Aburame,Insetos kikaichu,Não possui,Não possui,Não possui
+Gaara,./assets/images/png/gaara.png,Sunagakure,Não possui,Controle de areia,Não possui,Shukaku,Não possui
+Temari,./assets/images/png/temari.png,Sunagakure,Não possui,Liberação de vento,Não possui,Não possui,Não possui
+Kankuro,./assets/images/png/kankuro.png,Sunagakure,Não possui,Mestre de marionetes,Não possui,Não possui,Não possui
+Baki,./assets/images/webp/baki.webp,Sunagakure,Não possui,Espada de vento,Não possui,Não possui,Não possui
+Rasa,./assets/images/webp/rasa.webp,Sunagakure,Não possui,Areia de ouro,Não possui,Não possui,Não possui
+Yashamaru,./assets/images/png/yashamaru.png,Sunagakure,Não possui,Ninjutsu médico,Não possui,Não possui,Não possui
+Zabuza Momochi,./assets/images/png/zabuza_momochi.png,Kirigakure,Não possui,Espada decapitadora,Não possui,Não possui,Não possui
+Haku,./assets/images/webp/haku.webp,Kirigakure,Yuki,Liberação de gelo,Não possui,Não possui,Não possui
+Orochimaru,./assets/images/png/orochimaru.png,Otogakure,Não possui,Técnicas de cobra,Não possui,Não possui,Não possui
+Kabuto Yakushi,./assets/images/png/kabuto_yakushi.png,Otogakure,Não possui,Ninjutsu médico,Não possui,Não possui,Não possui
+Kimimaro,./assets/images/webp/kimimaro.webp,Otogakure,Kaguya,Manipulação óssea,Não possui,Não possui,Não possui
+Jirobo,./assets/images/png/jirobo.png,Otogakure,Não possui,Drenagem de chakra,Não possui,Não possui,Não possui
+Kidomaru,./assets/images/png/kidomaru.png,Otogakure,Não possui,Teias de aranha,Não possui,Não possui,Não possui
+Tayuya,./assets/images/png/tayuya.png,Otogakure,Não possui,Flauta demoníaca,Não possui,Não possui,Não possui
+Sakon e Ukon,./assets/images/png/sakon_ukon.png,Otogakure,Não possui,Fusão corporal,Não possui,Não possui,Não possui
+Dosu Kinuta,./assets/images/webp/dosu_kinuta.webp,Otogakure,Não possui,Som destrutivo,Não possui,Não possui,Não possui
+Zaku Abumi,./assets/images/png/zaku_abumi.png,Otogakure,Não possui,Ar comprimido,Não possui,Não possui,Não possui
+Kin Tsuchi,./assets/images/webp/kin_tsuchi.webp,Otogakure,Não possui,Senbon sonoro,Não possui,Não possui,Não possui
+Jiraiya,./assets/images/webp/jiraiya.webp,Konohagakure,Não possui,Invocação de sapos,Não possui,Não possui,Não possui
+Tsunade,./assets/images/png/tsunade.png,Konohagakure,Senju,Força monstruosa,Não possui,Não possui,Não possui
+Hiruzen Sarutobi,./assets/images/webp/hiruzen_sarutobi.webp,Konohagakure,Sarutobi,Todos os elementos,Não possui,Não possui,Não possui
+Danzo Shimura,./assets/images/webp/danzo_shimura.webp,Konohagakure,Shimura,Izanagi,Sharingan,Não possui,Não possui
+Itachi Uchiha,./assets/images/png/itachi_uchiha.png,Akatsuki,Uchiha,Genjutsu,Mangekyo Sharingan,Não possui,Yūbu no Aragami 
+Kisame Hoshigaki,./assets/images/webp/kisame_hoshigaki.webp,Akatsuki,Não possui,Samehada,Não possui,Não possui,Não possui
+Deidara,./assets/images/webp/deidara.webp,Akatsuki,Não possui,Argila explosiva,Não possui,Não possui,Não possui
+Sasori,./assets/images/webp/sasori.webp,Akatsuki,Não possui,Marionetes,Não possui,Não possui,Não possui
+Hidan,./assets/images/webp/hidan.webp,Akatsuki,Não possui,Ritual Jashin,Não possui,Não possui,Não possui
+Kakuzu,./assets/images/webp/kakuzu.webp,Akatsuki,Não possui,Corações extras,Não possui,Não possui,Não possui
+Nagato,./assets/images/png/png/nagato.png,Akatsuki,Uzumaki,Shinra Tensei,Rinnegan,Não possui,Não possui
+Konan,./assets/images/webp/konan.webp,Akatsuki,Não possui,Manipulação de papel,Não possui,Não possui,Não possui
+Madara Uchiha,./assets/images/png/madara_uchiha.png,Akatsuki,Uchiha,Jutsu Bola de Fogo,Rinnegan,Não possui,Susano'o Perfeito
+Minato Namikaze,./assets/images/png/minato_namikaze.png,Konohagakure,Namikaze,Hiraishin no Jutsu,Não possui,Não possui,Não possui
