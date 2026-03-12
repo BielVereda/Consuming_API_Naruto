@@ -114,6 +114,7 @@ git clone https://github.com/BielVereda/Consuming_API_Naruto.git
 - Abra a pasta do projeto.
 - Execute o arquivo `index.html` (com LiveServer)
 - Digite o nome de um personagem na barra de busca para visualizar suas informações.
+<img width="1920" height="1794" alt="teste_site_naruto_api" src="https://github.com/user-attachments/assets/5c427b90-13b4-47ab-b660-45a957251368" />
 
 ---
 ## 💡 Exemplo de Endpoint Utilizado
