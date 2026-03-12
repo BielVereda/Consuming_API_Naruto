@@ -40,7 +40,7 @@ O projeto permite pesquisar personagens e visualizar suas informações em forma
 **A aplicação consome dados da seguinte API:**
 
 ```
-https://api.sheety.co/1496e89186f13b092444e4d8a5eacbf0/narutoCharactersLarge/narutoCharactersLarge
+https://sheetdb.io/api/v1/yp391nmnagbfx
 ```
 **Essa API (Criada por nós), retorna informações sobre personagens de Naruto, como:**
 
@@ -118,9 +118,9 @@ git clone https://github.com/BielVereda/Consuming_API_Naruto.git
 ---
 ## 💡 Exemplo de Endpoint Utilizado
 
-`GET` `https://api.sheety.co/1496e89186f13b092444e4d8a5eacbf0/narutoCharactersLarge/narutoCharactersLarge`
+`GET` `https://sheetdb.io/api/v1/yp391nmnagbfx`
 
-<img width="1535" height="865" alt="image" src="https://github.com/user-attachments/assets/8eda27de-ab8d-4746-85cf-901b277790f3" />
+<img width="1522" height="513" alt="image" src="https://github.com/user-attachments/assets/8c9f78b7-b838-4fc1-9733-3db7650b667e" />
 
 ---
 ## 🧠 Conceitos Trabalhados
