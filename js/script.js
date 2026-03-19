@@ -2,7 +2,7 @@
 // URL DA API
 // ===============================
 
-const apiURL = "https://sheetdb.io/api/v1/yp391nmnagbfx"
+const apiURL = "https://sheetdb.io/api/v1/y32bd8ek8wsif"
 
 // ===============================
 // CAPTURA DOS ELEMENTOS DO HTML
