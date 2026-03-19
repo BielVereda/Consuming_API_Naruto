@@ -40,7 +40,7 @@ O projeto permite pesquisar personagens e visualizar suas informações em forma
 **A aplicação consome dados da seguinte API:**
 
 ```
-https://sheetdb.io/api/v1/yp391nmnagbfx
+https://sheetdb.io/api/v1/y32bd8ek8wsif
 ```
 **Essa API (Criada por nós), retorna informações sobre personagens de Naruto, como:**
 
@@ -119,7 +119,7 @@ git clone https://github.com/BielVereda/Consuming_API_Naruto.git
 ---
 ## 💡 Exemplo de Endpoint Utilizado
 
-`GET` `https://sheetdb.io/api/v1/yp391nmnagbfx`
+`GET` `https://sheetdb.io/api/v1/y32bd8ek8wsif`
 
 <img width="1522" height="513" alt="image" src="https://github.com/user-attachments/assets/8c9f78b7-b838-4fc1-9733-3db7650b667e" />
 
